@@ -30,3 +30,6 @@ node_modules/
 # editor
 .*.swp
 .vscode/
+
+# just ignore for now at least
+themes/lso2021/assets/video/20200801-lso-np-6secs.mp4
