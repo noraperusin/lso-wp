@@ -24,7 +24,6 @@ function lso2021_scripts() {
     wp_enqueue_script( 'granim-js', get_template_directory_uri() . '/assets/js/granim.min.js', array('jquery'), null, true );
     wp_enqueue_script( 'jquery-steps-js', get_template_directory_uri() . '/assets/js/jquery.steps.min.js', array('jquery'), null, true );
     wp_enqueue_script( 'lightbox-js', get_template_directory_uri() . '/assets/js/lightbox.min.js', array('jquery'), null, true );
-    wp_enqueue_script( 'scripts-js', get_template_directory_uri() . '/assets/js/scripts.js', array('jquery'), null, true );
     wp_enqueue_script( 'typed-js', get_template_directory_uri() . '/assets/js/typed.min.js', array('jquery'), null, true );
     wp_enqueue_script( 'ytplayer-js', get_template_directory_uri() . '/assets/js/ytplayer.min.js', array('jquery'), null, true );
     */
@@ -33,6 +32,7 @@ function lso2021_scripts() {
     wp_enqueue_script( 'isotope-js', get_template_directory_uri() . '/assets/js/isotope.pkgd.min.js', array('jquery'), null, true );
     wp_enqueue_script( 'twitter-fetcher-js', get_template_directory_uri() . '/assets/js/twitterfetcher..min.js', array('jquery'), null, true );
     wp_enqueue_script( 'smooth-scroll-js', get_template_directory_uri() . '/assets/js/smooth-scroll.min.js', array('jquery'), null, true );
+    wp_enqueue_script( 'scripts-js', get_template_directory_uri() . '/assets/js/scripts.js', array('jquery'), null, true );
 }
 
 add_action( 'wp_enqueue_scripts', 'lso2021_scripts');
