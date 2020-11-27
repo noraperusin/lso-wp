@@ -1144,15 +1144,15 @@
 
 	<!--   
     <script src="js/scripts.js"></script>
-    <script type="text/javascript">
-      $(".div a").on("click", function () {
-        console.log("upity");
-        $(".nav").find(".active").removeClass("active");
-        $(this).addClass("active");
-      });
-    </script>
--->
+    -->
 	<?php wp_footer(); ?>
+	<script type="text/javascript">
+	$(".div a").on("click", function() {
+		console.log("upity");
+		$(".nav").find(".active").removeClass("active");
+		$(this).addClass("active");
+	});
+	</script>
 </body>
 
 </html>
