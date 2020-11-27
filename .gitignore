@@ -15,6 +15,9 @@ upgrade
 
 # ignore these plugins
 plugins/hello.php
+plugins/sg-cachepress
+plugins/wordpress-importer
+plugins/wordpress-starter
 
 # ignore specific themes
 themes/twenty*/
