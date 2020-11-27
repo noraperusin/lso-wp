@@ -22,8 +22,8 @@ function lso2021_scripts() {
     wp_enqueue_script( 'easypiechart-js', get_template_directory_uri() . '/assets/js/easypiechart.min.js', array('jquery'), null, true );
     wp_enqueue_script( 'flickity-js', get_template_directory_uri() . '/assets/js/flickity.min.js', array('jquery'), null, true );
     wp_enqueue_script( 'granim-js', get_template_directory_uri() . '/assets/js/granim.min.js', array('jquery'), null, true );
-    wp_enqueue_script( 'isotope-js', get_template_directory_uri() . '/assets/js/isotope.min.js', array('jquery'), null, true );
-    wp_enqueue_script( 'jquery-steps-js', get_template_directory_uri() . '/assets/js/jquery-steps.min.js', array('jquery'), null, true );
+    wp_enqueue_script( 'isotope-js', get_template_directory_uri() . '/assets/js/isotope.pkgd.min.js', array('jquery'), null, true );
+    wp_enqueue_script( 'jquery-steps-js', get_template_directory_uri() . '/assets/js/jquery.steps.min.js', array('jquery'), null, true );
     wp_enqueue_script( 'lightbox-js', get_template_directory_uri() . '/assets/js/lightbox.min.js', array('jquery'), null, true );
     wp_enqueue_script( 'lightbox-js', get_template_directory_uri() . '/assets/js/lightbox.min.js', array('jquery'), null, true );
     wp_enqueue_script( 'parallax-js', get_template_directory_uri() . '/assets/js/parallax.js', array('jquery'), null, true );
