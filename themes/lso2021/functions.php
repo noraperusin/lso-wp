@@ -10,6 +10,7 @@ function lso2021_scripts() {
     wp_enqueue_style( 'bootstrap-core', get_template_directory_uri() . '/assets/css/bootstrap.css' );
     wp_enqueue_style( 'flickity', get_template_directory_uri() . '/assets/css/flickity.css' );
     wp_enqueue_style( 'theme-cedar', get_template_directory_uri() . '/assets/css/theme-cedar.css' );
+    wp_enqueue_style( 'theme-cedar', get_template_directory_uri() . '/style.css' );
 
     // Add scripts
     // jquery loaded by default, not necessary since added as bootstrap and popper bundle dependency
