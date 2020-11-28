@@ -1,0 +1,37 @@
+/*
+Theme Name: Los Soles Oblicuos WP
+Author: Victor Kane
+Author URI: http://awebfactory.com
+Description: Poesía de Nora Perusin
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lsowp
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+nav.bar {
+  padding: 0;
+}
+
+.bar .logo {
+  max-height: 4em;
+  margin-bottom: 0.5em;
+}
+@media all and (max-width: 768px) {
+  .bar .logo {
+    max-height: 3.5em;
+    margin: -1em 0;
+  }
+}
+
+.bar .menu-horizontal {
+  top: 15px;
+}
+
+section .tapas .tapa {
+  padding-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #eee;
+}
